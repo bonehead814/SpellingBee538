@@ -1,0 +1,7 @@
+C:\Users\davec\Documents\Projects\SpellingBee\SpellingBee\bin\Debug\SpellingBee.exe.config
+C:\Users\davec\Documents\Projects\SpellingBee\SpellingBee\bin\Debug\SpellingBee.exe
+C:\Users\davec\Documents\Projects\SpellingBee\SpellingBee\bin\Debug\SpellingBee.pdb
+C:\Users\davec\Documents\Projects\SpellingBee\SpellingBee\obj\Debug\SpellingBee.csprojAssemblyReference.cache
+C:\Users\davec\Documents\Projects\SpellingBee\SpellingBee\obj\Debug\SpellingBee.csproj.CoreCompileInputs.cache
+C:\Users\davec\Documents\Projects\SpellingBee\SpellingBee\obj\Debug\SpellingBee.exe
+C:\Users\davec\Documents\Projects\SpellingBee\SpellingBee\obj\Debug\SpellingBee.pdb
