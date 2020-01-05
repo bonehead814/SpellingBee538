@@ -560,3 +560,5 @@ Word list:
     trinitarian
     trite
     triter
+
+Elapsed time: 15.39 minutes
