@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Diagnostics;
 
 namespace SpellingBee
 {
@@ -88,6 +89,8 @@ namespace SpellingBee
 
         static void Main(string[] args)
         {
+            Stopwatch watch = new Stopwatch();
+            watch.Start();
             BuildWordList();
 
             // For all combinations of 7 letters, and for using each letter in each comination as the center letter,
@@ -110,7 +113,7 @@ namespace SpellingBee
                                         {
                                             List<Word> validWordList = new List<Word>();
                                             int score = ComputeScore(ints, idx, validWordList);
-                                            if (score >= maxScore)
+                                            if (score > maxScore)
                                             {
                                                 maxScore = score;
                                                 maxInts = ints;
@@ -132,6 +135,9 @@ namespace SpellingBee
             Console.WriteLine("Word list:");
             foreach (Word word in maxWordList)
                 Console.WriteLine("    " + word.Text);
+            watch.Stop();
+            Console.WriteLine();
+            Console.WriteLine("Elapsed time: " + String.Format("{0:0.00}", ((double)watch.ElapsedMilliseconds / 60000)) + " minutes");
         }
     }
 }
